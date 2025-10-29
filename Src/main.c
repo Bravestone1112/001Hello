@@ -25,6 +25,9 @@
 int main(void)
 {
     /* Loop forever */
-	printf("Hello World\n");
+	printf("Hello Worldd\n");
+	printf("The Size of char is = %u\n",sizeof(char));
+	printf("The Size of int is = %u\n",sizeof(int));
+	printf("The Size of long is = %u\n",sizeof(long));
 	for(;;);
 }
